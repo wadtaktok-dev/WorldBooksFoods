@@ -2,17 +2,18 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #0f1f14;
-    color: white;
+    color: #ffffff;
 }
 
 header {
-    background: linear-gradient(135deg, #2E7D32, #81C784);
+    background: linear-gradient(135deg, #1b5e20, #43a047);
     padding: 30px;
     text-align: center;
 }
 
 h1 {
     margin: 0;
+    font-size: 30px;
 }
 
 .container {
@@ -22,12 +23,17 @@ h1 {
 }
 
 .card {
-    background: #1b2a20;
+    background: #1e2f23;
     padding: 20px;
     margin: 15px 0;
-    border-radius: 16px;
+    border-radius: 14px;
 }
 
 a {
-    color: #81C784;
+    color: #66bb6a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
