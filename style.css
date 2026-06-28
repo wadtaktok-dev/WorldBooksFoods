@@ -1,21 +1,18 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #1A1C1A;
-    color: #E2E3E2;
+    background: #0f1f14;
+    color: white;
 }
 
-/* HEADER */
 header {
-    background: linear-gradient(135deg, #1B5E20, #2E7D32);
+    background: linear-gradient(135deg, #2E7D32, #81C784);
     padding: 30px;
     text-align: center;
-    color: white;
 }
 
 h1 {
     margin: 0;
-    font-size: 32px;
 }
 
 .container {
@@ -24,30 +21,13 @@ h1 {
     padding: 20px;
 }
 
-/* CARDS */
 .card {
-    background: #1E2F23;
+    background: #1b2a20;
     padding: 20px;
     margin: 15px 0;
     border-radius: 16px;
-    border: 1px solid #2E7D32;
 }
 
-/* LINKS */
 a {
     color: #81C784;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* BUTTONS */
-button {
-    background: #2E7D32;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 10px;
 }
