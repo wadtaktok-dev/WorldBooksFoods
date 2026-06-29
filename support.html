@@ -1,23 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>WorldBooksFoods</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 80px 20px;
+        }
+
+        h1 {
+            font-size: 42px;
+            color: #38bdf8;
+        }
+
+        p {
+            font-size: 18px;
+            color: #cbd5e1;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: #38bdf8;
+            color: black;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        footer {
+            padding: 30px;
+            font-size: 14px;
+            color: #94a3b8;
+        }
+    </style>
 </head>
+
 <body>
 
 <header>
-    <h1>📞 Contact</h1>
+    <h1>WorldBooksFoods 📚🍕</h1>
+    <p>
+        A modern Android app built with Jetpack Compose & Firebase.
+        Discover international foods and books in one place.
+    </p>
+
+    <a class="btn" href="https://github.com/DEIN-USERNAME/WorldBooksFoods">
+        View on GitHub
+    </a>
 </header>
 
-<div class="container">
+<section>
+    <h2>🔥 Features</h2>
 
-<div class="card">
-<p>Email: support@worldbooksfoods.app</p>
-<p>Developer: Mahmod Hota</p>
-</div>
+    <div class="features">
+        <div class="card">🍕 Food Explorer</div>
+        <div class="card">📚 Book Collection</div>
+        <div class="card">🔐 Firebase Authentication</div>
+        <div class="card">⭐ Favorites System</div>
+        <div class="card">☁ Cloud Sync</div>
+        <div class="card">🎨 Modern UI (Compose)</div>
+    </div>
+</section>
 
-</div>
+<section>
+    <h2>🚀 Tech Stack</h2>
+    <p>Kotlin • Jetpack Compose • Firebase • DataStore • MVVM</p>
+</section>
+
+<footer>
+    Made with ❤️ by Mahmod Hota
+</footer>
 
 </body>
 </html>
